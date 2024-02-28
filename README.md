@@ -51,16 +51,14 @@ Build the Project:
 Navigate to the project directory and build the project using Maven.
 
 bash
-Copy code
-cd school-X
-mvn clean install
+    cd school-X
+    mvn clean install
 Run the Application:
 
 Once the project is successfully built, you can run the application using the Spring Boot Maven plugin.
 
 bash
-Copy code
-mvn spring-boot:run
+    mvn spring-boot:run
 Access the Application:
 
 The application should now be running. You can access it using the defined endpoints, such as Swagger UI for API documentation, or any other specific endpoints you've implemented.
