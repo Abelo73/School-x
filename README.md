@@ -1,24 +1,49 @@
-
-Thank you for providing your details. Here's the updated README with your information:
+Here's the updated README with your information:
 
 School X Project
 Introduction
-This project aims to provide a comprehensive software solution for managing various aspects of a school environment. It encompasses functionalities related to student management, teacher management, course management, section management, semester management, and authentication.
+This project aims to provide a comprehensive software solution for managing various aspects of a school environment. 
+It encompasses functionalities related to 
+    student management, 
+    teacher management, 
+    course management, 
+    section management, 
+    semester management, and 
+    authentication.
 
 Technologies Used
+
+
 Java: The project is developed using Java programming language.
+
 Spring Boot: Spring Boot is used to build stand-alone, production-grade Spring-based applications.
+
 Spring Data JPA: Spring Data JPA provides repository support for Java applications using the JPA (Java Persistence API) specification.
+
 MySQL: MySQL is used as the database management system.
+
 JWT (JSON Web Tokens): JWT is used for secure authentication and authorization.
+
 Lombok: Lombok is used to reduce boilerplate code in Java classes.
+
 Swagger: Swagger is integrated for API documentation.
+
 Spring Security: Spring Security is used for securing the application.
+
+
+
 Getting Started
 Database Configuration:
 
 Ensure MySQL is installed and running.
-Modify the spring.datasource.url, spring.datasource.username, and spring.datasource.password properties in the application.properties file to match your MySQL database configuration.
+Modify the 
+    spring.datasource.url, 
+    spring.datasource.username, and 
+    spring.datasource.password 
+    properties in the application.properties file to match your MySQL database configuration.
+
+
+
 Running the Application:
 
 Build the project using Maven or your preferred build tool.
@@ -28,17 +53,17 @@ Accessing APIs:
 Once the application is running, you can access the APIs using the provided endpoints.
 Authentication:
 
-The application uses JWT for authentication. Access tokens are required to access protected endpoints.
+The application uses JWT for authentication. 
+Access tokens are required to access protected endpoints.
 Obtain an access token by authenticating with valid credentials through the /api/v1/auth endpoints.
 API Documentation:   
-
 
 Installation Steps
 Clone the Repository: Clone the School X project repository from the source.
 
 bash
 Copy code
-git clone <repository_url>
+    git clone https://github.com/Abelo73/School-x.git
 Configure Database:
 
 Update the application.properties file located in the src/main/resources directory.
